@@ -53,12 +53,15 @@ const ChessGame = () => {
     };
 
     const turnMessage = getTurnFromFEN() === "white" ? "Your turn" : getRoundFromFEN() === 1 ? "Tell AI to play" : "AI's thinking..."
-
+    const displayIntro = introVisible ? "block" : "none"
     return (
         <div>
             <h1>LLM Chess</h1>
-            <p style={ introVisible ? { display: "block" } : { display: "none"}}>
-                Make your first move. Then tell the LLM it's time to play chess and they play as black.
+            <p style={{ display: displayIntro, marginBottom: 10 }}>
+                Make your first move. Then tell the LLM it's time to play chess.
+            </p>
+            <p style={{ display: displayIntro, fontSize: 16 }}>
+                <b>Suggested prompt</b>: Let's play chess, You are black. I already made my move. Explain reasoning.
             </p>
             <div style={{ width: 400, height: 400, margin: "auto" }}>
                 <Chessboard

@@ -2,6 +2,8 @@
 
 Play chess against an LLM through MCP. (Nothing serious, it's quite bad at it.)
 
+![Screenshot](./screenshot.png)
+
 ## Installation & Running
 
 ### Prerequisites
@@ -42,7 +44,8 @@ npm run start
 
 ## Usage
 1. Make a move in browser
-2. Ask the LLM to play
+2. Ask the LLM to play:
 
 ## Notes
-Once the LLM is limited in the amount of moves it can make, it starts tripping up.
+- Once the LLM is limited in the amount of moves it can make, it starts tripping up.
+- Refreshing the browser resets the game
