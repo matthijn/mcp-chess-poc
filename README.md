@@ -1,6 +1,6 @@
 # LLM Chess
 
-Play chess against an LLM through MCP. (Nothing serious, it's quite bad at it.)
+Play chess against an LLM through MCP. (Nothing serious, it's quite bad at it. Proof of Concept.)
 
 ![Screenshot](./screenshot.png)
 
