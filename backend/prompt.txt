@@ -1,0 +1,12 @@
+We are playing chess.
+
+You are black. I am white. I made my move.
+
+Steps for you to take:
+- Get current board state (only play when it's blacks turn)
+- Make a move
+
+After you did:
+
+- Tell me what you thought of my move.
+- Explain why you did your move.
